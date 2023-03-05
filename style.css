@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+
+
 *, html, body{
     padding: 0;
     margin: 0;
@@ -26,7 +29,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    /* gap: 1rem; */
     padding: 30px;
     background-color: #191825;
     border: none;
@@ -34,6 +37,13 @@ body {
 .panel .image{
     width: 50vw;
     height: 80vh;
+}
+.panel .text p{
+    font-family: Kanit;
+    font-weight: 400;
+}
+.panel .text{
+    /* margin-left: -3; */
 }
 .panel .image.first{
     background-image: url("first.svg");
