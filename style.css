@@ -1,0 +1,39 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+}
+body {
+    overscroll-behavior: none;
+    height: 100vh;
+  }
+  .container {
+    overscroll-behavior: none;
+    width: 600%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+.description{
+    background-color: #3F497F;
+    color : white;
+}
+.panel{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+.red{
+    background-color: #4C4B16;
+}
+.orange{
+    background-color: #898121;
+}
+.green{
+    background-color: #191825;
+}
+.gray{
+    background-color: #191825;
+}
+.purple{
+    background-color: black;
+}
