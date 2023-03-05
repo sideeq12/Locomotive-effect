@@ -28,7 +28,8 @@ body {
     align-items: center;
     gap: 1rem;
     padding: 30px;
-    border: 1px solid red;
+    background-color: #191825;
+    border: none;
 }
 .panel .image{
     width: 50vw;
@@ -64,21 +65,12 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
 }
+.panel .image.last{
+    background-image: url("final.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .panel .text{
     width: 40vw;
-}
-.red{
-    background-color: #4C4B16;
-}
-.orange{
-    background-color: #898121;
-}
-.green{
-    background-color: #191825;
-}
-.gray{
-    background-color: #C04A82;
-}
-.purple{
-    background-color: #BE6DB7;
 }
